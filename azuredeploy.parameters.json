@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "AdminUserName": {
+      "value": "Intad"
+    },
+    "Instance": {
+      "value": 2
+    },
+    "IPAddress_Space": {
+      "value": "10.0"
+    },
+    "OperatingSystem": {
+      "value": "Windows"
+    },
+    "VMSize": {
+      "value": "Small"
+    },
+    "Deploy_WebServers": {
+      "value": true
+    },
+    "Deploy_AppServers": {
+      "value": true
+    },
+    "Deploy_DatabaseServers": {
+      "value": true
+    },
+    "_artifactsLocation": {
+      "value": "https://raw.githubusercontent.com/DeanCefola/WebDemo/master/5.-EndState"
+    }
+
+  }
+}
